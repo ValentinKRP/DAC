@@ -167,9 +167,18 @@ h3 {
   position: relative;
 }
 
+.nav-group::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  height: 0.7rem;
+}
+
 .subnav {
   position: absolute;
-  top: calc(100% + 0.6rem);
+  top: calc(100% + 0.2rem);
   left: 0;
   min-width: 16rem;
   padding: 0.8rem;
