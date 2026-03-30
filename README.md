@@ -19,4 +19,20 @@ Site static de prezentare pentru gama DAC, construit pe baza structurii și con�
 
 ## Rulare locală
 
-Site-ul este complet static și poate fi deschis direct din browser sau servit prin orice server HTTP simplu.
+Varianta recomandată în PowerShell:
+
+```powershell
+cd E:\DAC\repo
+.\start-local.ps1
+```
+
+Apoi deschizi:
+
+`http://127.0.0.1:8080`
+
+Alternativ, poți porni direct:
+
+```powershell
+cd E:\DAC\repo
+node .\server.js
+```
